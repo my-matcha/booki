@@ -14,8 +14,9 @@
 }
 
 body {
-  /* display: flex;
-    justify-content: center; */
+  margin: 0;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 
 .main-container {
@@ -47,7 +48,7 @@ a {
 }
 
 .card-title {
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 .euro {
@@ -56,6 +57,41 @@ a {
 
 .neutral-star {
   color: var(--main-bg-color);
+}
+
+/****** Header ***********/
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.logo img {
+  height: 19px;
+  padding: 30px 50px;
+}
+
+ul.nav-links {
+  list-style: none;
+  padding: 0 50px;
+  margin: 0;
+  display: flex;
+  gap: 68px;
+}
+
+ul.nav-links li {
+  font-size: 1rem;
+}
+
+ul.nav-links a {
+  display: block;
+  padding: 14px 0;
+  border-top: 2px solid transparent;
+}
+
+ul.nav-links a:hover {
+  border-color: var(--main-color);
+  color: var(--main-color);
 }
 
 /****** Hebergements And Populaires ***********/

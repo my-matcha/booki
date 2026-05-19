@@ -114,6 +114,11 @@ ul.nav-links a:hover {
   color: var(--main-color);
 }
 
+/****** Titre ***********/
+.hero {
+  gap: 8px;
+}
+
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
   display: flex;

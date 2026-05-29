@@ -13,6 +13,10 @@
   color: var(--main-color);
 }
 
+button {
+  cursor: pointer;
+}
+
 body {
   margin: 0;
   max-width: 1440px;
@@ -199,6 +203,7 @@ ul.nav-links a:hover {
 
 .badge:hover {
   background-color: var(--filter-bg-color);
+  cursor: pointer;
 }
 
 .badge i {
@@ -377,19 +382,26 @@ ul.footer-links li {
     display: block;
     padding: 14px 0;
     border-top: none;
-    border-bottom: 2px solid transparent;
+    border-bottom: 2px solid var(--main-bg-color);
   }
 
-  /****** Info-group ***********/
+  /****** Main container ***********/
+  .main-container {
+    padding: 35px 20px 35px 20px;
+  }
 
   /****** Recherche ***********/
   .location-search input {
+    position: relative;
     width: 100%;
+    border-radius: 0 15px 15px 0;
   }
 
   .location-search button {
+    position: absolute;
+    right: 20px;
     border-radius: 15px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
   }
 
   .location-search button i.icon-search {
@@ -411,12 +423,14 @@ ul.footer-links li {
   .filter-options {
     display: flex;
     flex-wrap: wrap;
-    gap: 10px;
+    row-gap: 20px;
+    column-gap: 10px;
   }
 
   .badge {
-    width: fill-availables;
+    flex-basis: 35%;
     justify-content: flex-start;
+    font-size: 14px;
   }
 
   /****** Footer ***********/

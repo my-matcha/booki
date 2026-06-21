@@ -38,9 +38,9 @@
 
     <div class="info-group">
       <div class="headline">
-        <h2 class="headline-title">
+        <h1 class="headline-title">
           Trouvez votre hébergement pour des vacances de rêve
-        </h2>
+        </h1>
         <p class="headline-subtitle">
           En plein centre-ville ou en pleine nature
         </p>
@@ -49,7 +49,7 @@
       <search class="location-search">
         <i class="fa-solid fa-location-dot icon-location"></i>
         <input
-          type="search city"
+          type="text"
           placeholder="Votre destination de rêve"
           value="Marseille, France"
         />
@@ -59,8 +59,8 @@
         </button>
       </search>
 
-      <filter class="travel-type-filter">
-        <h3 class="filter-title">Filtres</h3>
+      <section class="travel-type-filter">
+        <h2>Filtres</h2>
 
         <div class="filter-options">
           <div class="badge">
@@ -83,7 +83,7 @@
             Nos pépites
           </div>
         </div>
-      </filter>
+      </section>
 
       <div class="info-logements">
         <i class="fa-solid fa-info fa-xs"></i>
@@ -93,11 +93,12 @@
       </div>
     </div>
 
-    <section class="hebergements-and-populaires">
+    <div class="hebergements-and-populaires">
       <section class="hebergements">
-        <h2 class="section-title" id="hebergements">
-          Hébergements à Marseille
-        </h2>
+        <div class="section-title">
+          <h3>Hébergements à Marseille</h3>
+        </div>
+
         <div class="hebergements-cards">
           <a href="#" class="card_link">
             <article class="card">
@@ -126,6 +127,7 @@
               </div>
             </article>
           </a>
+
           <a href="#" class="card_link">
             <article class="card">
               <img
@@ -153,6 +155,7 @@
               </div>
             </article>
           </a>
+
           <a href="#" class="card_link">
             <article class="card">
               <img
@@ -180,6 +183,7 @@
               </div>
             </article>
           </a>
+
           <a href="#" class="card_link">
             <article class="card">
               <img
@@ -207,6 +211,7 @@
               </div>
             </article>
           </a>
+
           <a href="#" class="card_link">
             <article class="card">
               <img
@@ -234,6 +239,7 @@
               </div>
             </article>
           </a>
+
           <a href="#" class="card_link">
             <article class="card">
               <img
@@ -262,14 +268,17 @@
             </article>
           </a>
         </div>
+
         <a href="#" class="afficher-plus"> Afficher plus </a>
       </section>
 
       <section class="populaires">
-        <div class="populaires-title">
-          <h2 class="section-title">Les plus populaires</h2>
+        <div class="section-title">
+          <h3>Les plus populaires</h3>
+
           <i class="fa-solid fa-chart-line" aria-hidden="true"></i>
         </div>
+
         <div class="populaires-cards">
           <a href="#" class="card_link">
             <article class="card">
@@ -298,6 +307,7 @@
               </div>
             </article>
           </a>
+
           <a href="#" class="card_link">
             <article class="card">
               <img
@@ -325,6 +335,7 @@
               </div>
             </article>
           </a>
+
           <a href="#" class="card_link">
             <article class="card">
               <img
@@ -354,61 +365,63 @@
           </a>
         </div>
       </section>
-    </section>
+    </div>
 
     <section class="activites-marseille">
-        <h2 class="section-title">Activités à Marseille</h2>
-        <div class="hebergements-cards"></div>
-          <a href="#" class="card_link">
-            <article class="card">
-              <img
-                src="./images/activites/reno-laithienne.jpg"
-                alt="Image de la chambre d'hôtel montrant un lit"
-              />
-              <div class="card-content">
-                  <h3 class="card-title">Vieux Port</h3>
-                </div>
-              </div>
-            </article>
-          </a>
-          <a href="#" class="card_link">
-            <article class="card">
-              <img
-                src="./images/activites/reno-laithienne.jpg"
-                alt="Image de la chambre d'hôtel montrant un lit"
-              />
-              <div class="card-content">
-                  <h3 class="card-title">Vieux Port</h3>
-                </div>
-              </div>
-            </article>
-          </a>
-          <a href="#" class="card_link">
-            <article class="card">
-              <img
-                src="./images/activites/reno-laithienne.jpg"
-                alt="Image de la chambre d'hôtel montrant un lit"
-              />
-              <div class="card-content">
-                  <h3 class="card-title">Vieux Port</h3>
-                </div>
-              </div>
-            </article>
-          </a>
-          <a href="#" class="card_link">
-            <article class="card">
-              <img
-                src="./images/activites/reno-laithienne.jpg"
-                alt="Image de la chambre d'hôtel montrant un lit"
-              />
-              <div class="card-content">
-                  <h3 class="card-title">Vieux Port</h3>
-                </div>
-              </div>
-            </article>
-          </a>
-        </div>
-     </section>
+      <div class="section-title">
+        <h3 class="section-title">Activités à Marseille</h3>
+      </div>
+
+      <div class="activites-cards">
+        <a href="#" class="card_link">
+          <article class="card">
+            <img
+              src="./images/activites/reno-laithienne.jpg"
+              alt="Photo d'une vue panoramique du Vieux Port de Marseille, avec des bateaux amarrés et des bâtiments historiques en arrière-plan"
+            />
+            <div class="card-content">
+              <h3 class="card-title">Vieux Port</h3>
+            </div>
+          </article>
+        </a>
+
+        <a href="#" class="card_link">
+          <article class="card">
+            <img
+              src="./images/activites/paul-hermann.jpg"
+              alt="Photo d'une vue panoramique du Fort de Pomègues de Marseille, avec des bâtiments historiques en arrière-plan"
+            />
+            <div class="card-content">
+              <h3 class="card-title">Fort de Pomègues</h3>
+            </div>
+          </article>
+        </a>
+
+        <a href="#" class="card_link">
+          <article class="card">
+            <img
+              src="./images/activites/kilyan-sockalingum.jpg"
+              alt="Photo d'une vue panoramique du Parc national des Calanques de Marseille, avec des paysages naturels en arrière-plan"
+            />
+            <div class="card-content">
+              <h3 class="card-title">Parc national des Calanques</h3>
+            </div>
+          </article>
+        </a>
+
+        <a href="#" class="card_link">
+          <article class="card">
+            <img
+              src="./images/activites/florian-wehde.jpg"
+              alt="Photo d'une vue panoramique de Notre-Dame-de-la-Garde de Marseille, avec des bâtiments historiques en arrière-plan"
+            />
+            <div class="card-content">
+              <h3 class="card-title">Notre-Dame-de-la-Garde</h3>
+            </div>
+          </article>
+        </a>
+      </div>
+    </section>
 
     <!-- <div class="main-container">
       <header></header>
@@ -513,7 +526,7 @@
 
     <footer>
       <section>
-        <h3>À propos</h3>
+        <h4>À propos</h4>
         <ul class="footer-links">
           <li><a href="#">Fonctionnement du site</a></li>
           <li><a href="#">Conditions générales</a></li>
@@ -521,14 +534,14 @@
         </ul>
       </section>
       <section>
-        <h3>Nos hébergements</h3>
+        <h4>Nos hébergements</h4>
         <ul class="footer-links">
           <li><a href="#">Chartes qualité</a></li>
           <li><a href="#">Proposer votre hôtel</a></li>
         </ul>
       </section>
       <section>
-        <h3>Assistance</h3>
+        <h4>Assistance</h4>
         <ul class="footer-links">
           <li><a href="#">Centre d'aide</a></li>
           <li><a href="#">Nous contacter</a></li>
